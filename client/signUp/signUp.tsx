@@ -10,15 +10,7 @@ export default function SignUp() {
         isSignUpOpen && (
           <div onClick={() => setIsSignUpOpen(prev => !prev)} className=" fixed bg-white rounded-2xl inset-0 flex w-full h-screen justify-center items-center">
             <div onClick={(e) => e.stopPropagation()} className="w-1/4 p-1.5 rounded-2xl flex flex-col bg-green-200">
-              <label>Name: </label>
-              <input type="text" className="border border-amber-100 rounded-xl bg-green-100" />
-              <label>Gender: </label>
-              <input type="text" className="border border-amber-100 rounded-xl bg-green-100" />
-              <label>email: </label>
-              <input type="text" className="border border-amber-100 rounded-xl bg-green-100" />
-              <label>Password: </label>
-              <input type="text" className="border border-amber-100 rounded-xl bg-green-100" />
-              <label>Confirm Password: </label>
+              <label>Email </label>
               <input type="text" className="border border-amber-100 rounded-xl bg-green-100" />
             </div>
           </div>
